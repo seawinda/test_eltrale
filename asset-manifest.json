@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/test_eltrale/static/css/main.9d90dc49.chunk.css",
+    "main.js": "/test_eltrale/static/js/main.4b806eb4.chunk.js",
+    "main.js.map": "/test_eltrale/static/js/main.4b806eb4.chunk.js.map",
+    "runtime-main.js": "/test_eltrale/static/js/runtime-main.bfc6d85d.js",
+    "runtime-main.js.map": "/test_eltrale/static/js/runtime-main.bfc6d85d.js.map",
+    "static/js/2.99a67d4a.chunk.js": "/test_eltrale/static/js/2.99a67d4a.chunk.js",
+    "static/js/2.99a67d4a.chunk.js.map": "/test_eltrale/static/js/2.99a67d4a.chunk.js.map",
+    "index.html": "/test_eltrale/index.html",
+    "precache-manifest.8a41494904b9922b1eb14a24bcff6c90.js": "/test_eltrale/precache-manifest.8a41494904b9922b1eb14a24bcff6c90.js",
+    "service-worker.js": "/test_eltrale/service-worker.js",
+    "static/css/main.9d90dc49.chunk.css.map": "/test_eltrale/static/css/main.9d90dc49.chunk.css.map",
+    "static/media/excursions.scss": "/test_eltrale/static/media/excu_bg.337bdad5.png",
+    "static/media/firstscreen.scss": "/test_eltrale/static/media/bg.de964d4f.jpg",
+    "static/media/clock.svg": "/test_eltrale/static/media/clock.b26b392e.svg",
+    "static/media/login.svg": "/test_eltrale/static/media/login.b8f10f9d.svg",
+    "static/media/logogo.svg": "/test_eltrale/static/media/logogo.081372e4.svg",
+    "static/media/star.svg": "/test_eltrale/static/media/star.daa523e6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfc6d85d.js",
+    "static/js/2.99a67d4a.chunk.js",
+    "static/css/main.9d90dc49.chunk.css",
+    "static/js/main.4b806eb4.chunk.js"
+  ]
+}
