@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f157894f.chunk.css",
+    "main.js": "/static/js/main.646f9642.chunk.js",
+    "main.js.map": "/static/js/main.646f9642.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.29ba41f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.29ba41f0.js.map",
+    "static/js/2.99a67d4a.chunk.js": "/static/js/2.99a67d4a.chunk.js",
+    "static/js/2.99a67d4a.chunk.js.map": "/static/js/2.99a67d4a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.42a4a31a2184ddd5cb2eb8163609918b.js": "/precache-manifest.42a4a31a2184ddd5cb2eb8163609918b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f157894f.chunk.css.map": "/static/css/main.f157894f.chunk.css.map",
+    "static/media/excursions.scss": "/static/media/excu_bg.337bdad5.png",
+    "static/media/firstscreen.scss": "/static/media/bg.de964d4f.jpg",
+    "static/media/clock.svg": "/static/media/clock.b26b392e.svg",
+    "static/media/login.svg": "/static/media/login.b8f10f9d.svg",
+    "static/media/logogo.svg": "/static/media/logogo.081372e4.svg",
+    "static/media/star.svg": "/static/media/star.daa523e6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29ba41f0.js",
+    "static/js/2.99a67d4a.chunk.js",
+    "static/css/main.f157894f.chunk.css",
+    "static/js/main.646f9642.chunk.js"
+  ]
+}

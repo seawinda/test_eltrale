@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" width="11" height="11">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-387 -2168L1053 -2168L1053 1130L-387 1130Z" />
+		</clipPath>
+		<image width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAqFBMVEUAAAD80Eb70En60Uj60Uj60Uj700b60Uj60Ej70Uj70Un//wD/xlX50kr50Ej70kn60En50kj50kj60Uj60Un50Un60Uf60Uj60Uj60En60Uf//4D60Uf60Un50Uf60Un50Ef60Un50Uj60kj60Uj3z0j3zkr8z0f70Ej60kj70Uj60Uf70Uf/0Ub60Uj60Uj50kj/0kv60kj30Ub60Ej/1Ur60UgAAACIjVotAAAANnRSTlMATEb+xMdFwsVDQgEJLVJ3urlVveFU7+6Rk5oCj5eEjIjo5/HyIB9LeKN5z3oLy/SHEcohZxhmFYjdAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAd0SU1FB+IMHAQjFgUTf+MAAAC8SURBVCjPbZHpFoIgEEYxKiu3SjPLFm13S02d93+0RAtE+f7A3HvgzABCLJKEhBlhPBKKMcBEeADqTAVCJmI25HNosuhzRW6FrHSgqunGEn5ZGbqmEro2LQy9YMvcIBuE2SJHLByk7ER879b9HIb82PZ26vPzv2eP5x4dxPW7/OKysa9dcWPD3/mrHuzrePGk4sULg4qgqf0wbJsIqIjqyo4ThJKYPF1ExRvSLG+3eZbCh4qirNjvVGVBli+dvjxZyhAO/AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0xMi0yOFQwMzozNToyMiswMTowMNrB+0oAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMTItMjhUMDM6MzU6MjIrMDE6MDCrnEP2AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Главная страница" clip-path="url(#cp1)">
+		<g id="section 3">
+			<g id="Обзорная экскурсия по Москве">
+				<g id="Отзывы">
+					<use id="star" href="#img1" transform="matrix(0.458,0,0,0.458,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
