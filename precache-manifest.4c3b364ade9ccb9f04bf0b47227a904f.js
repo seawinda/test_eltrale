@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31de1bd2c6229df2a643abfa009ad7bd",
+    "revision": "08a1111ba985f9e2588f2d029cb0c93c",
     "url": "/test_eltrale/index.html"
   },
   {
-    "revision": "40bc06f27d7e6cacdfe6",
+    "revision": "249add40c99e619921d7",
     "url": "/test_eltrale/static/css/main.9d90dc49.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test_eltrale/static/js/2.99a67d4a.chunk.js"
   },
   {
-    "revision": "40bc06f27d7e6cacdfe6",
-    "url": "/test_eltrale/static/js/main.4b806eb4.chunk.js"
+    "revision": "249add40c99e619921d7",
+    "url": "/test_eltrale/static/js/main.6f98714b.chunk.js"
   },
   {
     "revision": "4501a1a6bf661b2f0af5",

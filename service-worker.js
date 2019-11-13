@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/test_eltrale/precache-manifest.8a41494904b9922b1eb14a24bcff6c90.js"
+  "/test_eltrale/precache-manifest.4c3b364ade9ccb9f04bf0b47227a904f.js"
 );
 
 self.addEventListener('message', (event) => {
