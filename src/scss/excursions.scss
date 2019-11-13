@@ -1,0 +1,161 @@
+@import "./veriables";
+
+.excursions {
+  background-image: url(../imgs/excu_bg.png);
+  background-color: #f4f7fb;
+  padding-top: 1px;
+  padding-bottom: 70px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  overflow: hidden;
+
+  .slick-track {
+    display: flex;
+
+    @media screen and (min-width: $tablet-width) {
+      justify-content: center;
+    }
+  }
+
+  .slick-list {
+    overflow: visible;
+  }
+
+  .slick-slide {
+    flex: none;
+    float: none;
+    padding: 0 10px;
+
+    @media screen and (min-width: $tablet-width) {
+      margin-right: 20px;
+      padding: 0;
+    }
+
+    @media screen and (min-width: $desktop-width) {
+      &:nth-child(3n) {
+        margin-right: 100px;
+      }
+    }
+  }
+
+  .slick-arrow {
+    z-index: 100;
+    width: 50px;
+    height: 51px;
+
+    &:before {
+      content: url(../imgs/arrow.svg);
+      font-size: 50px;
+    }
+  }
+
+  .slick-next {
+    right: -195px;
+  }
+
+  .slick-prev {
+    left: -195px;
+    transform: rotateY(180deg) translate(0, -50%);
+  }
+}
+
+.excursions__item {
+  width: 308px !important;
+  min-height: 443px;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 8.5px #d2deeb);
+  background-color: #ffffff;
+  position: relative;
+
+  // margin-right: 20px;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d2deeb;
+    border-radius: 8px;
+  }
+}
+
+.slick-active .excursions__item {
+  &:after {
+    content: none;
+  }
+}
+
+.excursions__descr {
+  padding: 0 14px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 178px;
+}
+
+.excursions__title {
+  font-size: 17px;
+  line-height: 20px;
+  color: #484848;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.excursions__text {
+  height: 90px;
+  overflow: hidden;
+}
+
+.excursions__price {
+  justify-self: flex-end;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: auto;
+
+  &_value {
+    color: #de4040;
+    font-size: 17px;
+    margin-right: 4px;
+  }
+}
+
+.excursions__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e7eaed;
+  padding: 19px 14px;
+}
+
+.excursions__duration {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #969696;
+  line-height: 16px;
+}
+
+.excursions__review {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 12px;
+  color: #767676;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.excursions__stars {
+  display: flex;
+  margin-right: 5px;
+
+  img {
+    margin-right: 4px;
+  }
+}
