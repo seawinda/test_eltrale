@@ -7,7 +7,7 @@ import "../scss/header.scss";
 export default class Header extends Component {
   render() {
     const ready = callback => {
-      if (document.readyState != "loading") callback();
+      if (document.readyState !== "loading") callback();
       else document.addEventListener("DOMContentLoaded", callback);
     };
     ready(() => {
@@ -15,7 +15,6 @@ export default class Header extends Component {
       const menu = document.querySelector(".fixed_menu");
       document.addEventListener("scroll", e => {
         const scrolled = window.pageYOffset;
-        console.log(scrolled);
         if (scrolled > firstScreen.clientHeight - 100) {
           menu.classList.add("fixed_menu--active");
         } else {
